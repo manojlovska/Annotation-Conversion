@@ -24,6 +24,7 @@ Convert annotated polylines to a grid, where each square is its own coordinate s
 
 To get an idea of how to use this, take a look at this file [example_usecase.py](https://github.com/JanSuklje/Annotation-Conversion/blob/main/example_usecase.py).<br />
 This is the folder structure for this example:<br />
+```
     .
     ├── ...
     ├── debug
@@ -34,7 +35,7 @@ This is the folder structure for this example:<br />
     ├── example_usecase.py
     ├── visualizer.py
     └── ...
-
+```
 <!-- ROADMAP -->
 ## Roadmap
 
