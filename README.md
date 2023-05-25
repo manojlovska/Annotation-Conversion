@@ -43,3 +43,24 @@ This is the folder structure for this example:<br />
     - [ ] optimize conversion
 - [ ] convert 1D Poins
 - [ ] convert Euler angles
+
+## Problematic images
+debug\1635968679.3965194.jpg
+debug\1635968681.3002033.jpg
+debug\1635968708.2655108.jpg
+debug\1635968710.2643082.jpg
+debug\1635968713.2564065.jpg
+debug\1635968722.2748063.jpg
+debug\1635968728.239809.jpg
+debug\1635968732.2396882.jpg
+debug\1635968733.2381008.jpg
+debug\1635969461.3536637.jpg
+debug\1635969473.3440845.jpg
+debug\1635969616.1673646.jpg
+debug\1635969623.169405.jpg
+debug\1635970440.1754007.jpg
+debug\1635970525.0803819.jpg
+debug\1635975809.4737513.jpg
+debug\1635977172.0751393.jpg
+debug\1647956770.9162688.jpg
+debug\1648022917.2175105.jpg

@@ -199,7 +199,7 @@ class Converter:
                 second_line = [(0, 0), (0, self.height - 1)]
                 intersection = get_interstection(
                     first_line, second_line, self.width, self.height)
-                if intersection and intersection not in intersections:
+                if intersection and (intersection not in intersections):
                     intersections += [intersection]
                 # all other lines
                 # TODO go only through the vertical lines between wanted line coordinates
@@ -247,6 +247,7 @@ class Converter:
                 if len(intersections) <= 2:
                     continue
 
+                # we assume the square can have up to two intesections
                 longest_line_bt = get_longest_cond_line(intersections)
                 longest_line_tb = get_longest_cond_line(
                     intersections, top_to_bottom=True)
