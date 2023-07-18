@@ -66,17 +66,17 @@ The folder structure for generating gorund truth tensors and visualizing them lo
 │   │   │   └── ...
 │   └── dais_data_1
 │       ├── naloga_20
-│   │   │   ├── image1.jpg
-│   │   │   ├── image2.jpg
-│   │   │   └── ...
+│       │   ├── image1.jpg
+│       │   ├── image2.jpg
+│       │   └── ...
 │       ├── naloga_21
-│   │   │   ├── image1.jpg
-│   │   │   ├── image2.jpg
-│   │   │   └── ...
+│       │   ├── image1.jpg
+│       │   ├── image2.jpg
+│       │   └── ...
 │       └── naloga_22
-│   │   │   ├── image1.jpg
-│   │   │   ├── image2.jpg
-│   │   │   └── ...
+│       │   ├── image1.jpg
+│       │   ├── image2.jpg
+│       │   └── ...
 ├── converter.py
 ├── example_usecase.py
 ├── toTensor.py
