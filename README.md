@@ -12,7 +12,7 @@ Convert annotated polylines to a grid, where each square is its own coordinate s
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/JanSuklje/Annotation-Conversion
+   git clone https://github.com/manojlovska/Annotation-Conversion.git
    ```
 2. Install requiremensts
    ```sh
