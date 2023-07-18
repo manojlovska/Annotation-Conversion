@@ -36,6 +36,55 @@ This is the folder structure for this example:<br />
     ├── visualizer.py
     └── ...
 ```
+To generate ground truth tensors run
+   ```sh
+   python toTensor.py
+   ```
+To visualize the converted annotations run
+   ```sh
+   python visualize.py
+   ```
+
+The folder structure for generating gorund truth tensors and visualizing them looks something like this:
+```
+.
+├── ...
+├── DAIS
+│   ├── dais_data_0
+│   │   ├── naloga_1
+│   │   │   ├── image1.jpg
+│   │   │   ├── image2.jpg
+│   │   │   └── ...
+│   │   ├── naloga_2
+│   │   │   ├── image1.jpg
+│   │   │   ├── image2.jpg
+│   │   │   └── ...
+│   │   ├── ...
+│   │   ├── naloga_19
+│   │   │   ├── image1.jpg
+│   │   │   ├── image2.jpg
+│   │   │   └── ...
+│   └── dais_data_1
+│       ├── naloga_20
+│   │   │   ├── image1.jpg
+│   │   │   ├── image2.jpg
+│   │   │   └── ...
+│       ├── naloga_21
+│   │   │   ├── image1.jpg
+│   │   │   ├── image2.jpg
+│   │   │   └── ...
+│       └── naloga_22
+│   │   │   ├── image1.jpg
+│   │   │   ├── image2.jpg
+│   │   │   └── ...
+├── converter.py
+├── example_usecase.py
+├── toTensor.py
+├── visualize.py
+├── visualizer.py
+└── ...
+```
+
 <!-- ROADMAP -->
 ## Roadmap
 
